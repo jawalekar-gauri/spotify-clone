@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="25" class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m1 p1">
+                <div class="logo"><img width="120" class="invert" src="img/logo.svg"></div>
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m1 p1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">Privacy Center</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" />
+                    </svg>
+
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 6L15 12L9 18" stroke="white" stroke-width="2" />
+                    </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                                <path d="M9 7V17L16 12L9 7Z" stroke="black" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" fill="none" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0212d5de3d8e314957260010a8" alt="">
+                        <h2>Majboor</h2>
+                        <p>Sheheryan Rehan, Zoha Waseem</p>
+                    </div>
+
+                    <div data-folder="sec" class="card">
+                        <div class="play"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                                <path d="M9 7V17L16 12L9 7Z" stroke="black" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" fill="none" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0224cf458ef905402e43dacb7e" alt="">
+                        <h2>Zulfein</h2>
+                        <p>AUR, Talwinder</p>
+                    </div>
+
+                    <div data-folder="third" class="card">
+                        <div class="play"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                                <path d="M9 7V17L16 12L9 7Z" stroke="black" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" fill="none" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02773c5f60bcb309ef8802e4ef" alt="">
+                        <h2>Ranjhaan</h2>
+                        <p>Sunidhi Chohan, Arjit Singh</p>
+                    </div>
+
+                    <div data-folder="forth" class="card">
+                        <div class="play"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                                <path d="M9 7V17L16 12L9 7Z" stroke="black" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" fill="none" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                        <h2>Payal</h2>
+                        <p>Yo Yo, Badshah</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img width="25" id="previous" src="img/prevsong.svg">
+                            <img width="25" id="play" src="img/play.svg">
+                            <img width="25" id="next" src="img/nextsong.svg">
+                        </div>
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volumn">
+                            <img src="img/volumn.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volumn" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
